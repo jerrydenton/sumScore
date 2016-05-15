@@ -31,8 +31,8 @@ Simple Unity3d prefabs for keeping track of scores in your game. Includes option
 - Initial Score : Determine default score [int, def: 0]
 - Store High Score : Save high scores to PlayerPrefs [bool, def: true]
 - Allow Negative : Should we allow negative scores? [bool, def: false]
-- Field : Just a link. No need to change this one.
-- High Score Field : Just a link. No need to change this one.
+- Field : Just a link to the text field containing the player score. No need to change this one.
+- High Score Field : Just a link to the text field containing the high score. No need to change this one.
 
 ## EXAMPLE
 'SampleScene' contains examples of how everything works.
