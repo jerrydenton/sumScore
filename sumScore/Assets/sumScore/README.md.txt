@@ -3,6 +3,9 @@
 ## OVERVIEW
 Simple Unity3d prefabs for keeping track of scores in your game. Includes option to save high score to PlayerPrefs.
 
+Project Homepage: http://www.cyberlogical.com/sumscore/
+Repository: https://github.com/jerrydenton/sumScore
+
 ## SETUP
 - Create a Canvas if there is not one in your scene already. [Create > UI > Canvas] in Hierarchy
 - Copy one of the sumScore prefabs into your Canvas.
