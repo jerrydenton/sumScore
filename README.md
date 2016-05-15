@@ -3,7 +3,7 @@
 ## OVERVIEW
 Simple Unity3d prefabs for keeping track of scores in your game. Includes option to save high 
 score to PlayerPrefs. It's a super fast and easy way to add scores to your game. Uses the native 
-Unity UI so you can easily change the look and feel of everything right in the editor. Licenced 
+Unity UI so you can easily change the look and feel of everything right in the editor. Licensed 
 under MIT and CC0 so there are no worries on usage rights.
 
 Project Homepage: http://www.cyberlogical.com/sumscore/
