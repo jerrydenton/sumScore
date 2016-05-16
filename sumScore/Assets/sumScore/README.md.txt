@@ -6,8 +6,8 @@ score to PlayerPrefs. It's a super fast and easy way to add scores to your game.
 Unity UI so you can easily change the look and feel of everything right in the editor. Licensed 
 under MIT and CC0 so there are no worries on usage rights.
 
-Project Homepage: http://www.cyberlogical.com/sumscore/
-Repository: https://github.com/jerrydenton/sumScore
+- Project Homepage: http://www.cyberlogical.com/sumscore/
+- Repository: https://github.com/jerrydenton/sumScore
 
 ## SETUP
 - Create a Canvas if there is not one in your scene already. [Create > UI > Canvas] in Hierarchy
