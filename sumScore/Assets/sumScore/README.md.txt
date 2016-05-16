@@ -7,6 +7,7 @@ Unity UI so you can easily change the look and feel of everything right in the e
 under MIT and CC0 so there are no worries on usage rights.
 
 - Project Homepage: http://www.cyberlogical.com/sumscore/
+
 - Repository: https://github.com/jerrydenton/sumScore
 
 ## SETUP
@@ -16,29 +17,29 @@ under MIT and CC0 so there are no worries on usage rights.
 - (Optional) Adjust colors, fonts, etc. to fit your game's style
 
 ## USAGE
-**The following public methods are available for manipulating the scores.**
+The following public methods are available for manipulating the scores.
 
-- SumScore.Add(int points) : Adds specified number of points to score
-- SumScore.Subtract(int points) : Subtracts specified number of points from score
-- SumScore.Reset() : Resets score to zero
-- SumScore.SaveHighScore() : Saves player score as high score (if higher than current)
-- SumScore.ClearHighScore() : Resets high score to zero
+- **SumScore.Add(_int points_)** : Adds specified number of points to score
+- **SumScore.Subtract(_int points_)** : Subtracts specified number of points from score
+- **SumScore.Reset() : Resets score to zero
+- **SumScore.SaveHighScore()** : Saves player score as high score (if higher than current)
+- **SumScore.ClearHighScore()** : Resets high score to zero
 
-**The following public properties are accessible**
+The following public properties are accessible
 
-- SumScore.Score : Current player score. {get; protected set;}
-- SumScore.HighScore : Current high score {get; set;}
+- **SumScore.Score** : Current player score. {get; protected set;}
+- **SumScore.HighScore** : Current high score {get; set;}
 
 **_Check 'SampleScene' for example of proper setup and usage_**
 
 ## OPTIONS
-**The following options are available on the 'sumScoreManager' component on each prefab**
+The following options are available on the 'sumScoreManager' component on each prefab
 
-- Initial Score : Determine default score [int, def: 0]
-- Store High Score : Save high scores to PlayerPrefs [bool, def: true]
-- Allow Negative : Should we allow negative scores? [bool, def: false]
-- Field : Just a link to the text field containing the player score. No need to change this one.
-- High Score Field : Just a link to the text field containing the high score. No need to change this one.
+- *Initial Score* : Determine default score [int, def: 0]
+- *Store High Score* : Save high scores to PlayerPrefs [bool, def: true]
+- *Allow Negative* : Should we allow negative scores? [bool, def: false]
+- *Field* : Just a link to the text field containing the player score. No need to change this one.
+- *High Score Field* : Just a link to the text field containing the high score. No need to change this one.
 
 ## EXAMPLE
 'SampleScene' contains examples of how everything works.
