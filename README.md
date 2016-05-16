@@ -7,7 +7,6 @@ Unity UI so you can easily change the look and feel of everything right in the e
 under MIT and CC0 so there are no worries on usage rights.
 
 - Project Homepage: http://www.cyberlogical.com/sumscore/
-
 - Repository: https://github.com/jerrydenton/sumScore
 
 ## SETUP
