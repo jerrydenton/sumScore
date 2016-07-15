@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Score System Starter Kit by jerrydenton</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Score System Starter Kit</h1>
+      <h2 class="project-tagline">Add scores to your game in seconds</h2>
+      <a href="https://github.com/jerrydenton/sumScore" class="btn">View on GitHub</a>
+      <a href="https://github.com/jerrydenton/sumScore/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/jerrydenton/sumScore/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h1>
+<a id="sumscore-v10" class="anchor" href="#sumscore-v10" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>sumScore v1.0</h1>
+
+<h2>
+<a id="overview" class="anchor" href="#overview" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>OVERVIEW</h2>
+
+<p>sumScore is a simple, lightweight, and open source Unity Asset for adding scores to your game. 
+It contains easy to set up Unity3d prefabs for displaying and storing scores. Includes option to 
+save high score to PlayerPrefs. Uses the native Unity UI so you can easily change the look and 
+feel of everything right in the editor. Licensed under MIT and CC0 so there are no worries on 
+usage rights.</p>
+
+<ul>
+<li>Project Homepage: <a href="http://www.cyberlogical.com/sumscore/">http://www.cyberlogical.com/sumscore/</a>
+</li>
+<li>Repository: <a href="https://github.com/jerrydenton/sumScore">https://github.com/jerrydenton/sumScore</a>
+</li>
+</ul>
+
+<h2>
+<a id="setup" class="anchor" href="#setup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>SETUP</h2>
+
+<ul>
+<li>Create a Canvas if there is not one in your scene already. [Create &gt; UI &gt; Canvas] in Hierarchy</li>
+<li>Copy one of the sumScore prefabs into your Canvas.</li>
+<li>(Optional) Adjust position on screen in the RectTransform component</li>
+<li>(Optional) Adjust colors, fonts, etc. to fit your game's style</li>
+</ul>
+
+<h2>
+<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>USAGE</h2>
+
+<p>The following public methods are available for manipulating the scores.</p>
+
+<ul>
+<li>
+<strong>SumScore.Add(<em>int points</em>)</strong> : Adds specified number of points to score</li>
+<li>
+<strong>SumScore.Subtract(<em>int points</em>)</strong> : Subtracts specified number of points from score</li>
+<li>
+<strong>SumScore.Reset()</strong> : Resets score to zero</li>
+<li>
+<strong>SumScore.SaveHighScore()</strong> : Saves player score as high score (if higher than current)</li>
+<li>
+<strong>SumScore.ClearHighScore()</strong> : Resets high score to zero</li>
+</ul>
+
+<p>The following public properties are accessible</p>
+
+<ul>
+<li>
+<strong>SumScore.Score</strong> : Current player score. {get; protected set;}</li>
+<li>
+<strong>SumScore.HighScore</strong> : Current high score {get; set;}</li>
+</ul>
+
+<p><strong><em>Check 'SampleScene' for example of proper setup and usage</em></strong></p>
+
+<h2>
+<a id="options" class="anchor" href="#options" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>OPTIONS</h2>
+
+<p>The following options are available on the 'sumScoreManager' component on each prefab</p>
+
+<ul>
+<li>
+<em>Initial Score</em> : Determine default score [int, def: 0]</li>
+<li>
+<em>Store High Score</em> : Save high scores to PlayerPrefs [bool, def: true]</li>
+<li>
+<em>Allow Negative</em> : Should we allow negative scores? [bool, def: false]</li>
+<li>
+<em>Field</em> : Just a link to the text field containing the player score. No need to change this one.</li>
+<li>
+<em>High Score Field</em> : Just a link to the text field containing the high score. No need to change this one.</li>
+</ul>
+
+<h2>
+<a id="example" class="anchor" href="#example" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>EXAMPLE</h2>
+
+<p>'SampleScene' contains examples of how everything works.</p>
+
+<h2>
+<a id="project-license" class="anchor" href="#project-license" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>PROJECT LICENSE</h2>
+
+<ul>
+<li>The MIT License (MIT) - <a href="https://opensource.org/licenses/MIT">https://opensource.org/licenses/MIT</a>
+</li>
+<li>Copyright (c) 2016 Jerry Denton</li>
+</ul>
+
+<h2>
+<a id="other-assets" class="anchor" href="#other-assets" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>OTHER ASSETS</h2>
+
+<ul>
+<li>Fonts are from the awesome CC0 collection by asset creator Kenney - <a href="https://kenney.itch.io/">https://kenney.itch.io/</a>
+</li>
+<li>License (Creative Commons Zero, CC0) - <a href="http://creativecommons.org/publicdomain/zero/1.0/">http://creativecommons.org/publicdomain/zero/1.0/</a>
+</li>
+</ul>
+
+<h2>
+<a id="created-by" class="anchor" href="#created-by" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>CREATED BY</h2>
+
+<ul>
+<li>Jerry Denton</li>
+<li><a href="http://www.cyberlogical.com">http://www.cyberlogical.com</a></li>
+</ul>
+
+<h3>
+<a id="change-notes" class="anchor" href="#change-notes" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>CHANGE NOTES</h3>
+
+<hr>
+
+<ul>
+<li>v 1.0</li>
+<li>Initial version</li>
+</ul>
+
+<hr>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/jerrydenton/sumScore">Score System Starter Kit</a> is maintained by <a href="https://github.com/jerrydenton">jerrydenton</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
