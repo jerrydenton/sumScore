@@ -1,14 +1,15 @@
 # sumScore v1.0
 
+- Unity Asset Store: http://u3d.as/tY0 <<< **Current official release**
+- Project Homepage: http://jerrydenton.github.io/sumScore/
+- Developer Contact: http://www.cyberlogical.com/sumscore/
+
 ## OVERVIEW
 sumScore is a simple, lightweight, and open source Unity Asset for adding scores to your game. 
 It contains easy to set up Unity3d prefabs for displaying and storing scores. Includes option to 
 save high score to PlayerPrefs. Uses the native Unity UI so you can easily change the look and 
 feel of everything right in the editor. Licensed under MIT and CC0 so there are no worries on 
 usage rights.
-
-- Project Homepage: http://www.cyberlogical.com/sumscore/
-- Repository: https://github.com/jerrydenton/sumScore
 
 ## SETUP
 - Create a Canvas if there is not one in your scene already. [Create > UI > Canvas] in Hierarchy
