@@ -6,6 +6,7 @@ using UnityEngine.UI;
 /// Attach to game object in scene. 
 /// This is a singleton so only one instance can be active at a time.
 /// </remarks>
+[HelpURL("https://jerrydenton.github.io/sumScore/")]
 public class SumScoreManager : MonoBehaviour {
 
     public static SumScoreManager instance = null;  // Static instance for singleton
