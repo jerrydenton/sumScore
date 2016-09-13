@@ -1,4 +1,4 @@
-# sumScore v1.0
+# sumScore
 
 - Unity Asset Store: http://u3d.as/tY0 <<< **Current official release**
 - Project Homepage: http://jerrydenton.github.io/sumScore/
